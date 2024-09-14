@@ -9,7 +9,7 @@ body {
 }
 
 .cake {
-    background-image: url("..assets/img/cake.jpg");
+    background-image: url(".assets/img/cake.jpg");
     width: calc(563*1.5px);
     height: calc(414*1.5px);
     background-size: cover;
