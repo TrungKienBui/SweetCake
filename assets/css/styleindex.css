@@ -32,11 +32,9 @@ body {
 }
 
 #gift {
-    width: calc(563*1.5px);
-    height: calc(414*1.5px);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    position: absolute;
+    width: 94px;
+    left: 364px;
     display: none;
 }
 
@@ -47,8 +45,9 @@ body {
     }
 
     #gift {
-        width: calc(563*0.8px);
-        height: calc(414*0.8px);
+        width: 49px;
+        left: 195px;
+        display: none;
     }
 
     #fire {

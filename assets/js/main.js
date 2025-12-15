@@ -36,7 +36,6 @@ window.onload = async () => {
                     firstImg.style.display = "none";
                     lastImg.style.display = "block";
                     giftImg.style.display = "block";
-                    document.body.style.backgroundColor = "#ffffff";
                 }
             }
 
