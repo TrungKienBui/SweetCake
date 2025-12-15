@@ -29,11 +29,14 @@ window.onload = async () => {
                 console.log(count)
                 console.log(rms)
                 if (count === 4) {
+                    const giftImg = document.querySelector("#gift");
                     const firstImg = document.querySelector("#fire");
                     const lastImg = document.querySelector("#cover");
                     console.log(firstImg)
                     firstImg.style.display = "none";
                     lastImg.style.display = "block";
+                    giftImg.style.display = "block";
+                    document.body.style.backgroundColor = "#ffffff";
                 }
             }
 

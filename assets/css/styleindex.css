@@ -9,7 +9,7 @@ body {
 }
 
 .cake {
-    background-image: url("../img/cake.jpg");
+    background-image: url("../img/cake1.png");
     width: calc(563*1.5px);
     height: calc(414*1.5px);
     background-size: cover;
@@ -31,8 +31,22 @@ body {
     display: none;
 }
 
+#gift {
+    width: calc(563*1.5px);
+    height: calc(414*1.5px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: none;
+}
+
 @media (max-width: 740px) {
     .cake {
+        width: calc(563*0.8px);
+        height: calc(414*0.8px);
+    }
+
+    #gift {
         width: calc(563*0.8px);
         height: calc(414*0.8px);
     }
